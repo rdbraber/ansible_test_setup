@@ -1,6 +1,6 @@
 # Ansible test setup
 
-This vagrant files can be used to setup a test environment for Ansible.
+This vagrant file can be used to setup a test environment for Ansible.
 It will configure 5 nodes:
 
 - ansible: this host has Ansible installed
@@ -9,3 +9,6 @@ It will configure 5 nodes:
 
 The public key of the root account of the ansible server is copied to the testservers.
 An inventory file is available in the directory /vagrant/ansible.
+
+
+Make sure you have both Vagrant, Virtualbox and git installed.
